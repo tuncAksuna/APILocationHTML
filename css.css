@@ -1,0 +1,45 @@
+body {
+    background-color: #eee;
+}
+
+button {
+    padding: 8px;
+    background-color: crimson;
+    border-radius: 10px;
+    opacity: 0.7;
+    transition: padding 0.4s, opacity 0.4s;
+    color: whitesmoke;
+}
+
+button:hover {
+    padding: 12px;
+    opacity: 1;
+}
+
+.container {
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(55, 59, 61, 0.4);
+    box-shadow: 3px 3px 3px 3px #888888;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -150px;
+    transition: box-shadow 500ms;
+}
+
+.container:hover {
+    box-shadow: 8px 8px 8px 8px #888888;
+}
+
+#p1 {
+    margin-left: 3px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    word-spacing: 10px;
+}
