@@ -27,7 +27,7 @@ button:hover {
     left: 50%;
     margin-left: -300px;
     margin-top: -150px;
-    transition: box-shadow 500ms;
+    transition: box-shadow 600ms;
 }
 
 .container:hover {
